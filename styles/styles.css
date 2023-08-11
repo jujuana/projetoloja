@@ -1,0 +1,35 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    background-image: url("../assets/esoteric.png");
+    width: 800px;
+    height: 400px;
+    background-size: cover;
+    
+ 
+}
+h1 {
+    text-shadow: whitesmoke 0.1em 0.1em 0.2em;
+    color: rgb(19, 44, 29);
+    font-size: 40px;
+
+}
+.cabecalho {
+    display: flex;
+    gap: 100px;
+    padding: 2%;
+}
+.cabecalho__links {
+    text-decoration: none;
+    color: white;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:  rgb(19, 44, 29);
+    font-size: 50px;
+    color: azure;
+    
+}
+  

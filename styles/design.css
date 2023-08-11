@@ -1,0 +1,76 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    background-color: white;
+    margin: 5%;
+}
+
+.Rodapé {
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0%;
+    left: 0px;
+    right: 0px;
+    color: white;
+    background-color: #354259;
+    text-decoration: aliceblue;
+}
+.cabecalho {
+    display: flex;
+    gap: 70px;
+    padding: 3%;
+    background-color: #354259;
+      
+}
+.cabecalho__links {
+    text-decoration: none;
+    color: white;
+}
+h1 {
+  
+    text-align: center;
+}
+.mercadoria{
+    display: flex;
+    flex-direction: row;
+}
+.produto_p{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20%;
+}
+.produto_1 {
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap: 2%;
+    padding: 10%;
+}
+.produto_e{
+    display: flex;
+    flex-direction: column;
+    padding: 20%;
+}
+.produto_2 {
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: row;
+    padding:10%;
+}
+.produto_a {
+    display: flex;
+    flex-direction: column;
+    padding: 20%;
+}
+.produto_3 {
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: row;
+    padding:10%;
+}
